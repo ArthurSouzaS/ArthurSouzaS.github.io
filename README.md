@@ -11,7 +11,7 @@ Estudante de **Desenvolvimento de Sistemas no SENAI**. Meu principal projeto é 
 ## Projetos em destaque
 
 - **Protutal** (TCC): plataforma de tutoria entre alunos com API em Node.js, Prisma e PostgreSQL, front em Next.js e app em React Native.
-- **Foco Estudos**: app de organização de estudos com tarefas por matéria, timer Pomodoro e dashboard de tempo estudado. Feito com Next.js, React, TypeScript, SCSS Modules e Vitest. [Código](https://github.com/ArthurSouzaS/ArthurSouzaS-foco-estudos) · [Site](https://arthursouzas.github.io/ArthurSouzaS-foco-estudos/)
+- **Foco Estudos**: app de organização de estudos com tarefas por matéria, timer Pomodoro e dashboard de tempo estudado. Feito com Next.js, React, TypeScript, SCSS Modules e Vitest. [Código](https://github.com/ArthurSouzaS/foco-estudos) · [Site](https://arthursouzas.github.io/foco-estudos)
 - **Carrossel 3D**: carrossel de imagens feito em aula sobre colaboração com Git e GitHub.
 
 ## Funcionalidades
