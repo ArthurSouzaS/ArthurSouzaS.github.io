@@ -222,7 +222,6 @@
      ========================================================= */
   const themeBtn = $("#theme-toggle");
   const themeMeta = $('meta[name="theme-color"]');
-  const systemLight = window.matchMedia("(prefers-color-scheme: light)");
 
   const applyTheme = (theme) => {
     root.setAttribute("data-theme", theme);
@@ -235,12 +234,6 @@
     const next = currentTheme() === "light" ? "dark" : "light";
     storage.set("theme", next);
     applyTheme(next);
-  });
-
-  // Sem escolha salva, acompanha mudanças do sistema
-  systemLight.addEventListener?.("change", (e) => {
-    const saved = storage.get("theme");
-    if (saved !== "light" && saved !== "dark") applyTheme(e.matches ? "light" : "dark");
   });
 
   /* =========================================================

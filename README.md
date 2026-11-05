@@ -16,7 +16,7 @@ Estudante de **Desenvolvimento de Sistemas no SENAI**. Meu principal projeto é 
 
 ## Funcionalidades
 
-- 🌗 **Tema claro e escuro**: escuro por padrão; na primeira visita segue o `prefers-color-scheme` do sistema e depois lembra a escolha (`localStorage`).
+- 🌗 **Tema claro e escuro**: o site abre sempre no tema escuro; o botão no menu troca para o claro e a escolha fica salva (`localStorage`).
 - 🌎 **Português e inglês**: o botão PT/EN troca todos os textos da página, inclusive `title`, meta description e o efeito de digitação. A escolha também fica salva.
 - 📱 Layout responsivo, do celular ao desktop.
 - ♿ Acessível: link "pular para o conteúdo", `aria-label` nos botões, foco visível pelo teclado e respeito a `prefers-reduced-motion`.

@@ -20,9 +20,7 @@
     (function () {
       var d = document.documentElement, t, l;
       try { t = localStorage.getItem("theme"); l = localStorage.getItem("lang"); } catch (e) {}
-      if (t !== "light" && t !== "dark") {
-        t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
-      }
+      if (t !== "light") t = "dark"; // escuro é o padrão
       d.setAttribute("data-theme", t);
       if (l === "en") d.setAttribute("lang", "en");
     })();
