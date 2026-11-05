@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Souza Soares | Desenvolvedor Full Stack</title>
+  <meta name="description" content="Portfólio de Arthur Souza Soares, estudante de Desenvolvimento de Sistemas no SENAI. Projetos com TypeScript, React, Next.js, Node.js, Prisma e PostgreSQL.">
+  <meta name="theme-color" content="#0b0d12">
+  <meta property="og:title" content="Arthur Souza Soares | Portfólio">
+  <meta property="og:description" content="Estudante de Desenvolvimento de Sistemas no SENAI. Full stack com TypeScript, React, Next.js e Node.js.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d12'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='700' font-size='28' fill='%2334d399'%3EAS%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="nav" id="topo">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__logo" aria-label="Início">
+        <span class="nav__logo-bracket">&lt;</span>AS<span class="nav__logo-bracket"> /&gt;</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="nav__menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#stack">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato" class="nav__cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="hero__tag"><span class="dot" aria-hidden="true"></span> Disponível para estágio e projetos</p>
+          <h1>
+            Olá, eu sou<br>
+            <span class="grad">Arthur Souza Soares</span>
+          </h1>
+          <p class="hero__role">
+            Desenvolvedor <span class="typed" data-words='["Full Stack","Back-end","Front-end","Mobile"]'>Full Stack</span><span class="caret" aria-hidden="true">|</span>
+          </p>
+          <p class="hero__desc">
+            Estudante de Desenvolvimento de Sistemas no SENAI. Gosto de transformar
+            regras de negócio em APIs bem organizadas e interfaces fáceis de usar,
+            do banco de dados até a tela.
+          </p>
+          <div class="hero__actions">
+            <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+            <a href="#contato" class="btn btn--ghost">Fale comigo</a>
+          </div>
+          <ul class="hero__social" aria-label="Redes">
+            <li><a href="https://github.com/ArthurSouzaS" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a></li>
+            <li><a href="https://www.instagram.com/arthursoares_092/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58 0 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58 0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s0-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33 0 7.05.07 2.7.27.27 2.69.07 7.05 0 8.33 0 8.74 0 12s0 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 24 8.74 24 12 24s3.67 0 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s0-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67 0 15.26 0 12 0Zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+            </a></li>
+            <li><a href="mailto:arthur.soares0209@outlook.com" aria-label="E-mail">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.3-.5L12 11.1 19.7 5H4.3ZM20 6.3l-7.4 5.9a1 1 0 0 1-1.2 0L4 6.3v12.2c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V6.3Z"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="hero__code" aria-hidden="true">
+          <div class="window">
+            <div class="window__bar">
+              <span></span><span></span><span></span>
+              <p>arthur.ts</p>
+            </div>
+<pre class="window__body"><code><span class="k">const</span> <span class="v">arthur</span> = {
+  <span class="p">nome</span>: <span class="s">"Arthur Souza Soares"</span>,
+  <span class="p">curso</span>: <span class="s">"Desenvolvimento de Sistemas"</span>,
+  <span class="p">escola</span>: <span class="s">"SENAI"</span>,
+  <span class="p">foco</span>: [<span class="s">"back-end"</span>, <span class="s">"front-end"</span>, <span class="s">"mobile"</span>],
+  <span class="p">stack</span>: [
+    <span class="s">"TypeScript"</span>, <span class="s">"Node.js"</span>, <span class="s">"Express"</span>,
+    <span class="s">"Prisma"</span>, <span class="s">"PostgreSQL"</span>,
+    <span class="s">"React"</span>, <span class="s">"Next.js"</span>, <span class="s">"React Native"</span>
+  ],
+  <span class="p">metodologia</span>: <span class="s">"Scrum"</span>,
+  <span class="p">aprendendo</span>: <span class="k">true</span>,
+};
+
+<span class="v">arthur</span>.<span class="f">construir</span>(<span class="s">"algo útil"</span>); <span class="c">// 🚀</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <p class="section__kicker">01. sobre mim</p>
+        <h2 class="section__title">Quem sou eu</h2>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              Sou estudante do curso técnico de <strong>Desenvolvimento de Sistemas no SENAI</strong>, em São Paulo.
+              No curso aprendi a levar um sistema da ideia até o deploy: levantamento de requisitos,
+              modelagem do banco, API, interface web e app mobile.
+            </p>
+            <p>
+              Meu principal projeto é o <strong>Protutal</strong>, nosso TCC: uma plataforma de tutoria entre alunos da
+              rede SESI. Nele trabalhei principalmente no <strong>back-end</strong>, criando as rotas de salas, materiais,
+              atividades, contestação de notas e desempenho, além de participar das telas do front-end.
+            </p>
+            <p>
+              Trabalho em equipe com <strong>Scrum</strong> e Git Flow, e uso ferramentas de IA como o Claude Code
+              no dia a dia para acelerar o desenvolvimento sem perder o controle do código.
+            </p>
+          </div>
+          <ul class="stats reveal">
+            <li><strong>4</strong><span>Sprints entregues no TCC</span></li>
+            <li><strong>15+</strong><span>Tecnologias usadas em projeto real</span></li>
+            <li><strong>3</strong><span>Plataformas: API, web e mobile</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section section--alt" id="stack">
+      <div class="container">
+        <p class="section__kicker">02. tecnologias</p>
+        <h2 class="section__title">O que eu já usei</h2>
+        <p class="section__lead">Tudo isto foi usado na prática no Protutal e em projetos do curso.</p>
+
+        <div class="stack">
+          <article class="stack__card reveal">
+            <h3><span class="ico">⚙️</span> Back-end</h3>
+            <ul class="chips">
+              <li>Node.js</li><li>TypeScript</li><li>Express</li><li>API REST</li>
+              <li>JWT</li><li>bcrypt</li><li>Nodemailer</li><li>Cloudinary</li>
+            </ul>
+          </article>
+          <article class="stack__card reveal">
+            <h3><span class="ico">🗄️</span> Banco de dados</h3>
+            <ul class="chips">
+              <li>PostgreSQL</li><li>Prisma ORM</li><li>pgAdmin</li><li>Migrations</li>
+              <li>MER / DER</li><li>Dicionário de dados</li>
+            </ul>
+          </article>
+          <article class="stack__card reveal">
+            <h3><span class="ico">🖥️</span> Front-end</h3>
+            <ul class="chips">
+              <li>React</li><li>Next.js</li><li>SCSS Modules</li><li>HTML</li>
+              <li>CSS</li><li>JavaScript</li><li>axios</li><li>Figma</li>
+            </ul>
+          </article>
+          <article class="stack__card reveal">
+            <h3><span class="ico">📱</span> Mobile</h3>
+            <ul class="chips">
+              <li>React Native</li><li>Expo</li><li>Expo Go</li>
+            </ul>
+          </article>
+          <article class="stack__card reveal">
+            <h3><span class="ico">🧰</span> Ferramentas</h3>
+            <ul class="chips">
+              <li>Git</li><li>GitHub</li><li>Git Flow</li><li>VS Code</li>
+              <li>Insomnia</li><li>draw.io</li><li>Claude Code</li>
+            </ul>
+          </article>
+          <article class="stack__card reveal">
+            <h3><span class="ico">📋</span> Processo</h3>
+            <ul class="chips">
+              <li>Scrum</li><li>Sprints</li><li>Requisitos (RF/RNF)</li>
+              <li>Regras de negócio</li><li>UML</li><li>Documentação de API</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section" id="projetos">
+      <div class="container">
+        <p class="section__kicker">03. projetos</p>
+        <h2 class="section__title">O que eu construí</h2>
+
+        <article class="feature reveal">
+          <div class="feature__visual" aria-hidden="true">
+            <div class="mock">
+              <div class="mock__bar"><span></span><span></span><span></span></div>
+              <div class="mock__body">
+                <div class="mock__side">
+                  <i></i><i></i><i></i><i></i>
+                </div>
+                <div class="mock__main">
+                  <div class="mock__title"></div>
+                  <div class="mock__cards">
+                    <div><b>8,7</b><small>média geral</small></div>
+                    <div><b>12</b><small>atividades</small></div>
+                    <div><b>3</b><small>tutorados</small></div>
+                  </div>
+                  <div class="mock__chart">
+                    <span style="--h:45%"></span><span style="--h:70%"></span><span style="--h:55%"></span>
+                    <span style="--h:85%"></span><span style="--h:65%"></span><span style="--h:92%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="feature__text">
+            <p class="feature__label">Projeto em destaque · TCC</p>
+            <h3>Protutal</h3>
+            <p>
+              Plataforma web e mobile de <strong>tutoria entre alunos</strong> da rede SESI, com foco em Geografia.
+              O professor transforma alunos em tutores, os tutores criam atividades e dão notas, e todos
+              acompanham o desempenho por conteúdo e por etapa.
+            </p>
+            <ul class="feature__list">
+              <li>Rotas de <strong>salas, materiais, atividades, contestação de notas e desempenho</strong></li>
+              <li>Upload de arquivos com <strong>Cloudinary</strong> e confirmação de e-mail com <strong>Nodemailer</strong></li>
+              <li>Banco modelado do MER ao schema <strong>Prisma + PostgreSQL</strong></li>
+              <li>Front web em <strong>Next.js</strong> e app mobile em <strong>React Native / Expo</strong></li>
+            </ul>
+            <ul class="chips chips--sm">
+              <li>TypeScript</li><li>Node.js</li><li>Express</li><li>Prisma</li>
+              <li>PostgreSQL</li><li>Next.js</li><li>React Native</li>
+            </ul>
+            <p class="feature__note">Projeto em equipe com Cesar Castro, Luisa Santos e Ruben Rocha.</p>
+          </div>
+        </article>
+
+        <div class="projects">
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__folder" aria-hidden="true">📁</span>
+              <a href="https://github.com/ArthurSouzaS/Aula06_ColaborandoEmProjetosCompartilhados" target="_blank" rel="noopener" aria-label="Ver Carrossel 3D no GitHub" class="card__link">↗</a>
+            </div>
+            <h3>Carrossel 3D</h3>
+            <p>Carrossel de imagens em 3D feito em aula sobre colaboração em projetos compartilhados com Git e GitHub.</p>
+            <ul class="chips chips--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__top">
+              <span class="card__folder" aria-hidden="true">📁</span>
+              <a href="https://github.com/ArthurSouzaS/arthursouzas.github.io" target="_blank" rel="noopener" aria-label="Ver código deste portfólio no GitHub" class="card__link">↗</a>
+            </div>
+            <h3>Este portfólio</h3>
+            <p>Site pessoal responsivo, com tema escuro e animações leves, sem framework e publicado no GitHub Pages.</p>
+            <ul class="chips chips--sm"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+          </article>
+
+          <article class="card card--soon reveal">
+            <div class="card__top">
+              <span class="card__folder" aria-hidden="true">🚧</span>
+            </div>
+            <h3>Próximo projeto</h3>
+            <p>Em breve. Acompanhe meu GitHub para ver o que estou construindo agora.</p>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/ArthurSouzaS" target="_blank" rel="noopener">github.com/ArthurSouzaS</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section--alt" id="contato">
+      <div class="container contact reveal">
+        <p class="section__kicker">04. contato</p>
+        <h2 class="section__title">Vamos conversar?</h2>
+        <p class="section__lead">
+          Estou aberto a oportunidades de estágio, projetos e trocas sobre desenvolvimento.
+          O jeito mais rápido de falar comigo é por e-mail.
+        </p>
+        <div class="contact__box">
+          <button class="contact__email" type="button" data-email="arthur.soares0209@outlook.com" aria-label="Copiar e-mail">
+            <span>arthur.soares0209@outlook.com</span>
+            <small class="contact__hint">clique para copiar</small>
+          </button>
+          <div class="contact__actions">
+            <a class="btn btn--primary" href="mailto:arthur.soares0209@outlook.com">Enviar e-mail</a>
+            <a class="btn btn--ghost" href="https://www.instagram.com/arthursoares_092/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn--ghost" href="https://github.com/ArthurSouzaS" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="ano">2026</span> Arthur Souza Soares</p>
+      <a href="#inicio" class="footer__top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
